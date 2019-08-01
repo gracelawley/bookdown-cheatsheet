@@ -59,12 +59,12 @@ knitr::include_graphics("img/renv-init-files.png")
 
 * `.Rprofile`
   + Used by the `renv` package
-  + I added `.Rprofile` to my `.gitignore` file
 * `renv/`
   + Used by the `renv` package
 * `renv.lock`
   + The lockfile - contains information about the packages used, what they are and how they were installed
 
+I am going to push all three of these to GitHub based on the recommendations in [this issue](https://github.com/rstudio/renv/issues/74). 
 
 ### 2 - Take a snapshot of the current Bookdown package library
 
